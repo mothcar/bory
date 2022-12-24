@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="utf-8" />
+<head>
+    <title> paypal test </title>
+</head>
+<body>
+<h2>페이팔 결제 테스트</h2>
+<form action=" https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="finethxnu-seller@naver.com">
+<input type="hidden" name="return" value="http://r3.voicemall.net:9090/purchases/callback/paypal">
+
+상품명 : <input type="text" name="item_name" value="Test Item 0001"><br />
+상품코드 : <input type="text" name="item_number" value="ITEM0001"><br />
+통화단위 : <input type="text" name="currency_code" value="USD"><br />
+상품가격 : <input type="text" name="amount" value="5"><br />
+인코딩 : <input type="text" name="charset" value="UTF-8"><br /><br />
+
+<input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="PayPal - The safer, easier way to pay online">
+
+</form>
+
+</body>
+
+</html>
+

@@ -1,0 +1,3 @@
+2020. 05. 16 
+	1. remove ¡®sharp¡¯ on Package 
+	2. remove image endpoint
